@@ -1,0 +1,138 @@
+body{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(201, 76, 76);
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand{
+    padding-top: 50px;
+}
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+   
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+#chicken{
+    margin-top: 5px;
+}
+#chicken a{
+    text-align: right;
+    padding-bottom: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+
+}
+.row{
+    width: 100%;
+    padding-right: 0;
+
+}
+#chicken{
+    background-color:#8ec5d4;
+    font-size: 20px;
+}
+.article{
+    text-align: center;
+    
+    border:1px solid black;
+}
+#p{
+    width: 100px;    
+    margin: 0;
+    padding: 5px;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    position: relative;
+    right: -700px;
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.data{
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.article-container{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+@media(min-width:992px) and(max-width:1199px){
+    h2{
+        text-align: center;
+    }
+    .navbar-brand h1{
+        position: relative;
+        top:15px;
+        left: 100px;
+        
+    }
+    
+
+}
+@media(min-width:768px)and(max-width:991px){
+
+    h2{
+        text-align: center;
+    }
+    .navbar-brand h1{
+        position: relative;
+        top:15px;
+        left: 100px;
+        
+    }
+    
+}
+@media(max-width:767px){
+    .navbar-brand{
+        padding-top:10px;
+        height:80px;
+    }
+    .navbar-brand h1{
+        padding-top:10px;
+        font-size:5vw;
+    }
+    
+    
+}
